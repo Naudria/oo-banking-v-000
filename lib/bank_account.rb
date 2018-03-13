@@ -18,6 +18,10 @@ end
 
 def valid?
   if status == "open" && self.balance > 0
+  true
+else
+  false
+end
 end
 
 
