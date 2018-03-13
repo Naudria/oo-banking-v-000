@@ -8,7 +8,10 @@ def initialize(name)
   @status = "open"
 end
 
- 
+def deposit(deposit_amt)
+  self.balance += deposit_amt
+
+end
 
 
 
